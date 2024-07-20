@@ -7,7 +7,7 @@ import { FaCakeCandles } from "react-icons/fa6";
 import { IoLocationSharp } from "react-icons/io5";
 export default function Me() {
     return (
-        <div className='py-10 px-5  h-fit w-[23rem] border border-opacity-10 flex flex-col items-center bg-opacity-10 bg-white rounded-[1rem] border-white'>
+        <div className='py-10 px-5  h-fit w-[23rem] border border-opacity-10 flex flex-col items-center bg-opacity-10 bg-white rounded-xl border-white'>
             <div className=' '>
                 <img alt='Profile' src={myphoto} className=' w-[8rem] border border-opacity-10 rounded-full' />
             </div>
@@ -23,21 +23,21 @@ export default function Me() {
 
             <div className='text-white flex flex-col gap-10'>
                 <div className='flex items-center gap-5'>
-                    <div><MdEmail size={24}/></div>
+                    <div className='text-cyan-400'><MdEmail size={24}/></div>
                     <div className='text-[0.9rem] '>
                         <div className=' text-opacity-50 text-white'>Email</div>
                         <div className='  font-thin text-white'>omkarsalunkhe</div>
                     </div>
                 </div>
                 <div className='flex gap-5 items-center'>
-                    <div className=' from-white to-black'><FaCakeCandles className='' size={24}/></div>
+                    <div className=' text-cyan-400 to-black'><FaCakeCandles className='' size={24}/></div>
                     <div className='text-[0.9rem]'>
                         <div className=' text-opacity-50 text-white'>Birthday</div>
                         <div className='  font-thin text-white'>12th Jan, 2004</div>
                     </div>
                 </div>
                 <div className='flex gap-5 items-center'>
-                    <div><IoLocationSharp size={24}/></div>
+                    <div className='text-cyan-400'><IoLocationSharp size={24}/></div>
                     <div className='text-[0.9rem]'>
                         <div className=' text-opacity-50 text-white'>Location</div>
                         <div className='  font-thin text-white'>Pune, Maharashtra</div>
