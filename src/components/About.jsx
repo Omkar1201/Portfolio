@@ -8,7 +8,7 @@ export default function About() {
 		<div className='text-white '>
 			<div>
 				<h2 className='text-[1.8rem] font-semibold'>About me</h2>
-				<div className='border-2 border-cyan-400 w-10 my-2'></div>
+				<div className='border-[0.15rem] rounded-full border-cyan-500 w-10 my-2'></div>
 				<div className='text-white text-opacity-60 font-thin'>
 					<div className='my-6'>
 						My name is Omkar Salunkhe & I am a Full-Stack Developer
@@ -25,21 +25,19 @@ export default function About() {
 					<div className=''>
 						<div className='text-[1.2rem] font-semibold'>Frontend</div>
 						<div className=' text-opacity-60 text-white'>
-							HTML, CSS, JavaScript, JQuery, SASS ,Telerik
-							Bootstrap, ReactJS, React-Native, Angular, Tailwind CSS
-							Search Engine Optimisation
+							HTML, CSS, JavaScript,
+							ReactJS, Tailwind CSS
 							Creative & Responsive Design
 						</div>
 					</div>
 				</div>
 				<div className='flex border border-white rounded-xl border-opacity-10 bg-white bg-opacity-5 gap-4 w-[22rem] p-8'>
-					<div className='text-[1.8rem] py-2 text-cyan-500'><BsDatabaseFillGear/></div>
+					<div className='text-[1.8rem] my-2 text-cyan-500'><BsDatabaseFillGear/></div>
 					<div className=''>
 						<div className='text-[1.2rem] font-semibold'>Backend</div>
 						<div className=' text-opacity-60 text-white'>
 							Programming & Scripting Languages
-							Python, Java
-							MongoDB, MySQL, NodeJs, Entity Framework, C#, Asp.net MVC
+							MongoDB, MySQL, ExpressJs
 						</div>
 					</div>
 				</div>

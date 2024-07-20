@@ -23,21 +23,21 @@ export default function Me() {
 
             <div className='text-white flex flex-col gap-10'>
                 <div className='flex items-center gap-5'>
-                    <div className='text-cyan-400'><MdEmail size={24}/></div>
+                    <div className='text-cyan-500'><MdEmail size={24}/></div>
                     <div className='text-[0.9rem] '>
                         <div className=' text-opacity-50 text-white'>Email</div>
                         <div className='  font-thin text-white'>omkarsalunkhe</div>
                     </div>
                 </div>
                 <div className='flex gap-5 items-center'>
-                    <div className=' text-cyan-400 to-black'><FaCakeCandles className='' size={24}/></div>
+                    <div className=' text-cyan-500 to-black'><FaCakeCandles className='' size={24}/></div>
                     <div className='text-[0.9rem]'>
                         <div className=' text-opacity-50 text-white'>Birthday</div>
                         <div className='  font-thin text-white'>12th Jan, 2004</div>
                     </div>
                 </div>
                 <div className='flex gap-5 items-center'>
-                    <div className='text-cyan-400'><IoLocationSharp size={24}/></div>
+                    <div className='text-cyan-500'><IoLocationSharp size={24}/></div>
                     <div className='text-[0.9rem]'>
                         <div className=' text-opacity-50 text-white'>Location</div>
                         <div className='  font-thin text-white'>Pune, Maharashtra</div>
@@ -45,19 +45,19 @@ export default function Me() {
                 </div>
             </div>
             <div className="flex space-x-4 flex-wrap gap-2 mt-10 justify-center">
-                <a href='https://leetcode.com/omkarsalunkhe3597/' target='_blank' rel="noreferrer" className=" text-white text-opacity-40 hover:text-white">
+                <a href='https://leetcode.com/omkarsalunkhe3597/' target='_blank' rel="noreferrer" className=" text-white text-opacity-40 hover:text-cyan-500">
                     <SiLeetcode size={20} />
                 </a>
-                <a href='https://github.com/Omkar1201' target='_blank' rel="noreferrer" className="text-white text-opacity-40 hover:text-white">
+                <a href='https://github.com/Omkar1201' target='_blank' rel="noreferrer" className="text-white text-opacity-40 hover:text-cyan-500   ">
                     <FaGithub size={20} />
                 </a>
-                <a href='https://www.linkedin.com/in/omkar-salunkhe-28784b214/' target='_blank' rel="noreferrer" className="text-white text-opacity-40 hover:text-white">
+                <a href='https://www.linkedin.com/in/omkar-salunkhe-28784b214/' target='_blank' rel="noreferrer" className="text-white text-opacity-40 hover:text-cyan-500">
                     <FaLinkedin size={20} />
                 </a>
-                <a href="https://x.com/Omkar11239862" target='_blank' rel="noreferrer" className="text-white text-opacity-40 hover:text-white">
+                <a href="https://x.com/Omkar11239862" target='_blank' rel="noreferrer" className="text-white text-opacity-40 hover:text-cyan-500">
                     <FaTwitter size={20} />
                 </a>
-                <a href='https://www.instagram.com/omkar_salunkhe12/' target='_blank' rel="noreferrer" className="text-white text-opacity-40 hover:text-white">
+                <a href='https://www.instagram.com/omkar_salunkhe12/' target='_blank' rel="noreferrer" className="text-white text-opacity-40 hover:text-cyan-500">
                     <FaInstagram size={20} />
                 </a>
             </div>
