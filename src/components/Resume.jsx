@@ -1,9 +1,20 @@
-import React from 'react'
+import React, { useEffect,useState } from 'react'
 import { PiBookOpenTextThin } from "react-icons/pi";
 import { BiCodeBlock } from "react-icons/bi";
 import { RxDownload } from "react-icons/rx";
 import express from '../images/express-removebg-preview.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 export default function Resume() {
+    const [isFirstLoad, setIsFirstLoad] = useState(true);
+
+    useEffect(() => {
+        if (isFirstLoad) {
+            AOS.init({ duration: 1000 });
+            setIsFirstLoad(false);
+        }
+    }, [isFirstLoad]);
+
     return (
         <div className=''>
             <h2 className='text-[1.8rem] font-semibold'>Resume</h2>
@@ -56,16 +67,45 @@ export default function Resume() {
                     <div className=' h-fit w-fit text-[1.8rem] my-2 text-cyan-500 border p-2 rounded-xl border-white border-opacity-20 bg-black bg-opacity-50'><BiCodeBlock /></div>
                     <h2 className=' text-[1.4rem] font-semibold'>My Skills</h2>
                 </div>
-                <div className='flex justify-around font-thin'>
-                    <div className='flex flex-col items-center gap-2 '> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40" /><div>C++</div> </div>
-                    <div className='flex flex-col items-center gap-2'> <div><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40" /></div> <div>MySQL</div></div>
-                    <div className='flex flex-col items-center gap-2'> <div><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40" /></div> <div>HTML5</div></div>
-                    <div className='flex flex-col items-center gap-2'> <div><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" /></div><div>CSS</div> </div>
-                    <div className='flex flex-col items-center gap-2'> <div><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" /></div><div>Javascript</div> </div>
-                    <div className='flex flex-col items-center gap-2'> <div><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" /></div><div>ReactJs</div> </div>
-                    <div className='flex flex-col items-center gap-2'><div><img className='w-[4.65rem]' src={express} alt="express"  /></div><div>ExpressJs</div> </div>
-                    <div className='flex flex-col items-center gap-2'> <div><img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40" /></div><div>Tailwind css</div> </div>
-                    <div className='flex flex-col items-center gap-2'><div><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40" /></div><div>Git</div></div>
+                <div>
+                    <div className='flex justify-around font-thin'>
+                        <div data-aos={isFirstLoad ? "fade-up" : ""} className='flex flex-col items-center gap-2'>
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40" />
+                            <div>C++</div>
+                        </div>
+                        <div data-aos={isFirstLoad ? "fade-up" : ""} className='flex flex-col items-center gap-2'>
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40" />
+                            <div>MySQL</div>
+                        </div>
+                        <div data-aos={isFirstLoad ? "fade-up" : ""} className='flex flex-col items-center gap-2'>
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40" />
+                            <div>HTML5</div>
+                        </div>
+                        <div data-aos={isFirstLoad ? "fade-up" : ""} className='flex flex-col items-center gap-2'>
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" />
+                            <div>CSS</div>
+                        </div>
+                        <div data-aos={isFirstLoad ? "fade-up" : ""} className='flex flex-col items-center gap-2'>
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" />
+                            <div>Javascript</div>
+                        </div>
+                        <div data-aos={isFirstLoad ? "fade-up" : ""} className='flex flex-col items-center gap-2'>
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" />
+                            <div>ReactJs</div>
+                        </div>
+                        <div data-aos={isFirstLoad ? "fade-up" : ""} className='flex flex-col items-center gap-2'>
+                            <img className='w-[4.65rem]' src={express} alt="express" />
+                            <div>ExpressJs</div>
+                        </div>
+                        <div data-aos={isFirstLoad ? "fade-up" : ""} className='flex flex-col items-center gap-2'>
+                            <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40" />
+                            <div>Tailwind CSS</div>
+                        </div>
+                        <div data-aos={isFirstLoad ? "fade-up" : ""} className='flex flex-col items-center gap-2'>
+                            <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40" />
+                            <div>Git</div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className='flex justify-center mt-10 font-semibold ]'>
