@@ -18,7 +18,7 @@ export default function Portfolio() {
                         <div className='text-[1.5rem] absolute top-[40%] group-hover:opacity-100 z-10 bg-black p-2 right-[44%] rounded-xl opacity-0 text-cyan-500'><FiEye /></div>
                     </a>
 
-                    <a href='https://github.com/Omkar1201/The_Knowledge_nest_Frontend' target='_blank' rel="noreferrer" className='flex hover:text-opacity-100 text-white text-opacity-80 duration-[0.4s] items-center gap-2 px-2 mt-2'>
+                    <a href='https://github.com/Omkar1201/The_Knowledge_nest_Frontend' target='_blank' rel="noreferrer" className='flex hover:text-opacity-100 text-white text-opacity-70 duration-[0.4s] items-center gap-2 px-2 mt-2'>
                         <div className='text-[1.5rem]'><FaGithub /></div>
                         <div className='font-semibold'>
                             The Knowledge Nest
@@ -36,7 +36,7 @@ export default function Portfolio() {
                         <div className='text-[1.5rem] absolute top-[40%] group-hover:opacity-100 z-10 bg-black p-2 right-[44%] rounded-xl opacity-0 text-cyan-500'><FiEye /></div>
                     </a>
 
-                    <a href='https://github.com/Omkar1201/News_website' target='_blank' rel="noreferrer" className='flex px-2 hover:text-opacity-100 text-white text-opacity-80 duration-[0.4s] items-center gap-2 my-2'>
+                    <a href='https://github.com/Omkar1201/News_website' target='_blank' rel="noreferrer" className='flex px-2 hover:text-opacity-100 text-white text-opacity-70 duration-[0.4s] items-center gap-2 my-2'>
                         <div className='text-[1.5rem]'><FaGithub /></div>
                         <div className='font-semibold'>
                             Newsi
@@ -55,7 +55,7 @@ export default function Portfolio() {
                         <div className='text-[1.5rem] absolute top-[40%] group-hover:opacity-100 z-10 bg-black p-2 right-[44%] rounded-xl opacity-0 text-cyan-500'><FiEye /></div>
                     </a>
 
-                    <a href='https://github.com/Omkar1201/Random_gif' target='_blank' rel="noreferrer" className='flex px-2 hover:text-opacity-100 text-white text-opacity-80 duration-[0.4s] items-center gap-2 my-2'>
+                    <a href='https://github.com/Omkar1201/Random_gif' target='_blank' rel="noreferrer" className='flex px-2 hover:text-opacity-100 text-white text-opacity-70 duration-[0.4s] items-center gap-2 my-2'>
                         <div className='text-[1.5rem]'><FaGithub /></div>
                         <div className=' font-semibold'>
                             Random Gif generator

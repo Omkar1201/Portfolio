@@ -38,13 +38,13 @@ export default function Contact() {
             <div className='text-[1.5rem] font-semibold mt-4 mb-2'>Contact form</div>
             <form className='flex flex-col gap-5' ref={form} onSubmit={sendEmail}>
                 <div>
-                    <input type='text' name='name' placeholder='Name' disabled={isbtnloading} onFocus={() => setisnamefocus(true)} onBlur={() => setisnamefocus(false)} className={`bg-transparent duration-[0.5s] placeholder-opacity-40 placeholder-white ${isnamefocus ? 'border-cyan-500' : 'border-white border-opacity-20'} p-3 rounded-xl border w-full outline-none`} />
+                    <input type='text' name='name' placeholder='Name' disabled={isbtnloading} onFocus={() => setisnamefocus(true)} onBlur={() => setisnamefocus(false)} className={`bg-transparent duration-[0.5s] placeholder-opacity-40 placeholder-white ${isnamefocus ? 'border-cyan-500' : 'border-white border-opacity-20'} p-3 rounded-xl border w-full outline-none`} required/>
                 </div>
                 <div>
-                    <input type='text' name='email' placeholder='Email address' disabled={isbtnloading} onFocus={() => setisemailfocus(true)} onBlur={() => setisemailfocus(false)} className={`bg-transparent duration-[0.5s] placeholder-opacity-40 placeholder-white ${isemailfocus ? 'border-cyan-500' : 'border-white border-opacity-20'} p-3 rounded-xl border w-full outline-none`} />
+                    <input type='email' name='email' placeholder='Email address' disabled={isbtnloading} onFocus={() => setisemailfocus(true)} onBlur={() => setisemailfocus(false)} className={`bg-transparent duration-[0.5s] placeholder-opacity-40 placeholder-white ${isemailfocus ? 'border-cyan-500' : 'border-white border-opacity-20'} p-3 rounded-xl border w-full outline-none`} required/>
                 </div>
                 <div>
-                    <textarea placeholder='Add Message' name='message' disabled={isbtnloading} rows={4} onFocus={() => setistextareafocus(true)} onBlur={() => setistextareafocus(false)} className={`bg-transparent duration-[0.5s] placeholder-opacity-40 placeholder-white ${istextareafocus ? 'border-cyan-500 ' : 'border-white border-opacity-20'} resize-none p-3 rounded-xl border w-full outline-none`}></textarea>
+                    <textarea placeholder='Add Message' name='message' disabled={isbtnloading} rows={4} onFocus={() => setistextareafocus(true)} onBlur={() => setistextareafocus(false)} className={`bg-transparent duration-[0.5s] placeholder-opacity-40 placeholder-white ${istextareafocus ? 'border-cyan-500 ' : 'border-white border-opacity-20'} resize-none p-3 rounded-xl border w-full outline-none`} required></textarea>
                 </div>
                 <div className='text-cyan-500  flex justify-end relative'>
                     <button className={`flex ${isbtnloading ? 'text-opacity-35 text-cyan-500 cursor-not-allowed':'bg-opacity-20 '}  items-center border border-opacity-10 shadow-md shadow-gray-800  border-white w-fit px-5 py-3 gap-2 rounded-xl `} disabled={isbtnloading}>
