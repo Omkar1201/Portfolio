@@ -68,8 +68,8 @@ export default function Resume() {
                     <div className='flex flex-col items-center gap-2'><div><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40" /></div><div>Git</div></div>
                 </div>
             </div>
-            <div className='flex justify-center mt-10'>
-                <a href='https://drive.google.com/file/d/1oOvOMhmp6wLldRE4EcnixZus74dnxOlz/view?usp=sharing' rel='noreferrer' target='_blank' className='border flex text-cyan-500 border-white border-opacity-20 bg-white bg-opacity-5 active:bg-opacity-0 hover:text-cyan-400 items-center gap-2 px-6 py-2 rounded-lg'>
+            <div className='flex justify-center mt-10 font-semibold ]'>
+                <a href='https://drive.google.com/file/d/1oOvOMhmp6wLldRE4EcnixZus74dnxOlz/view?usp=sharing' rel='noreferrer' target='_blank' className='border flex text-cyan-500 duration-[0.2s] border-white border-opacity-20 bg-white bg-opacity-5 active:bg-opacity-0 hover:text-cyan-300 items-center gap-2 px-6 py-2 rounded-lg'>
                     <div className='text-[1.2rem]'>
                         <RxDownload />
                     </div>

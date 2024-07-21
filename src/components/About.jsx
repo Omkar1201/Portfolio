@@ -9,7 +9,7 @@ export default function About() {
 			<div>
 				<h2 className='text-[1.8rem] font-semibold'>About me</h2>
 				<div className='border-[0.15rem] rounded-full border-cyan-500 w-10 my-2'></div>
-				<div className='text-white text-opacity-60 font-thin'>
+				<div className='text-white text-opacity-80 font-thin'>
 					<div className='my-6'>
 						My name is Omkar Salunkhe & I am a Full-Stack Developer
 					</div>

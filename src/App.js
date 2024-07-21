@@ -5,7 +5,7 @@ import About from "./components/About";
 import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
-
+import './App.css'
 function App() {
 	return (
 		<div className="App flex gap-12 bg-black p-16">
