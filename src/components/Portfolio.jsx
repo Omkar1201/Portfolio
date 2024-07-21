@@ -3,6 +3,7 @@ import { FaGithub } from 'react-icons/fa';
 import knowledge from '../images/knowledgenest.jpg'
 import newsi from '../images/newsi.jpg'
 import gifimg from '../images/gif.png'
+import { motion } from 'framer-motion';
 import { FiEye } from "react-icons/fi";
 export default function Portfolio() {
     return (
@@ -12,7 +13,11 @@ export default function Portfolio() {
                 <div className='border-[0.15rem] rounded-full border-cyan-500 w-10 my-2'></div>
             </div>
             <div className='mt-10 gap-10 flex justify-around flex-wrap'>
-                <div className='flex flex-col gap-2 w-[22rem]  border border-white border-opacity-30 '>
+                <motion.div
+                    initial={{ opacity: 0, scale: 0.5 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.2, delay: 0.2 }}
+                    className='flex flex-col gap-2 w-[22rem]  border border-white border-opacity-30 '>
                     <a href='https://the-knowledge-nest-1201.vercel.app/' rel='noreferrer' target='_blank' className=' h-[14rem] overflow-hidden relative group cursor-pointer'>
                         <img className='p-1 duration-[0.5s] group-hover:scale-105' src={knowledge} alt='knowledgenest_photo' />
                         <div className='text-[1.5rem] absolute top-[40%] group-hover:opacity-100 z-10 bg-black p-2 right-[44%] rounded-xl opacity-0 text-cyan-500'><FiEye /></div>
@@ -29,8 +34,12 @@ export default function Portfolio() {
                         Implemented user engagement features like likes and comments.
                         Demonstrated full-stack development proficiency.
                     </div>
-                </div>
-                <div className='flex flex-col gap-2 w-[22rem] border border-white border-opacity-30 '>
+                </motion.div>
+                <motion.div
+                    initial={{ opacity: 0, scale: 0.5 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.2, delay: 0.2 }}
+                    className='flex flex-col gap-2 w-[22rem] border border-white border-opacity-30 '>
                     <a href='https://newsi.vercel.app/' rel='noreferrer' target='_blank' className=' h-[14rem] overflow-hidden relative group cursor-pointer'>
                         <img className='p-1 duration-[0.5s] group-hover:scale-105' src={newsi} alt="newsi_photo" />
                         <div className='text-[1.5rem] absolute top-[40%] group-hover:opacity-100 z-10 bg-black p-2 right-[44%] rounded-xl opacity-0 text-cyan-500'><FiEye /></div>
@@ -48,8 +57,12 @@ export default function Portfolio() {
                         Utilized RESTful APIs to fetch and display news articles
                         Enabled users to search various news based their interests.
                     </div>
-                </div>
-                <div className='flex flex-col gap-2 w-[22rem] border border-white border-opacity-30 '>
+                </motion.div>
+                <motion.div
+                    initial={{ opacity: 0, scale: 0.5 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.2, delay: 0.2 }}
+                    className='flex flex-col gap-2 w-[22rem] border border-white border-opacity-30 '>
                     <a href='https://omkar1201.github.io/Random_gif/' rel='noreferrer' target='_blank' className=' h-[14rem] overflow-hidden relative group cursor-pointer'>
                         <img className='p-1 duration-[0.5s] group-hover:scale-105' src={gifimg} alt="newsi_photo" />
                         <div className='text-[1.5rem] absolute top-[40%] group-hover:opacity-100 z-10 bg-black p-2 right-[44%] rounded-xl opacity-0 text-cyan-500'><FiEye /></div>
@@ -64,7 +77,7 @@ export default function Portfolio() {
                     <div className='font-thin text-white text-opacity-80 px-2'>
                         Developed a dynamic Random GIF Generator website with features for discovering random GIFs and searching for specific ones, offering a seamless and intuitive user experience.
                     </div>
-                </div>
+                </motion.div>
             </div>
         </div>
     )
