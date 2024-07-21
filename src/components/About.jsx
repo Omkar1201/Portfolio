@@ -9,19 +9,22 @@ const About = () => {
 	return (
 		<div className='text-white'>
 			<motion.div
-				initial={{ opacity: 0, y: -20 }}
-				animate={{ opacity: 1, y: 0 }}
-				transition={{ duration: 0.6 }}
+				initial={{ opacity: 0 }}
+				animate={{ opacity: 1 }}
+				transition={{ duration: 0.8 }}
 			>
 				<h2 className='text-[1.8rem] font-semibold'>About me</h2>
 				<div className='border-[0.15rem] rounded-full border-cyan-500 w-10 my-2'></div>
-				<div className='text-white text-opacity-80 font-thin'>
+				<motion.div
+					initial={{ opacity: 0,y:-20}}
+					animate={{ opacity: 1,y:0 }}
+					transition={{ duration: 0.8 }}
+					className='text-white text-opacity-80 font-thin'>
 					<div className='my-6'>
 						My name is Omkar Salunkhe & I am a Full-Stack Developer
 					</div>
-
 					“To begin with I grew up in Satara city and graduated from Dr. D.Y. Patil Institute of Technology Pimpri in Computer. Writing has always been my passion and the works your writers have turned out have always been informative and impressive. I believe it would be a great learning qualification for me if I am given the opportunity to explore my skills. I am now looking forward to enhancing my management skills and inspiring a great team of my own.
-				</div>
+				</motion.div>
 			</motion.div>
 
 			<motion.h2
@@ -35,9 +38,9 @@ const About = () => {
 
 			<div className='flex flex-wrap justify-center gap-8'>
 				<motion.div
-					initial={{ opacity: 0,scale:0.9}}
-					animate={{ opacity: 1,scale:1}}
-					transition={{ duration: 0.6,delay:0.2 }}
+					initial={{ opacity: 0, scale: 0.9 }}
+					animate={{ opacity: 1, scale: 1 }}
+					transition={{ duration: 0.6, delay: 0.2 }}
 					className='flex border rounded-xl border-white border-opacity-10 bg-white bg-opacity-5 gap-4 w-[22rem] p-8 pb-16'
 				>
 					<div className='text-[2rem] text-cyan-500 my-2'><FaReact /></div>
@@ -52,8 +55,8 @@ const About = () => {
 				</motion.div>
 
 				<motion.div
-					initial={{ opacity: 0, scale:0.9}}
-					animate={{ opacity: 1, scale:1}}
+					initial={{ opacity: 0, scale: 0.9 }}
+					animate={{ opacity: 1, scale: 1 }}
 					transition={{ duration: 0.6, delay: 0.2 }}
 					className='flex border border-white rounded-xl border-opacity-10 bg-white bg-opacity-5 gap-4 w-[22rem] p-8'
 				>

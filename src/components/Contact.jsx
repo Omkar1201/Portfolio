@@ -3,7 +3,7 @@ import { IoIosSend } from "react-icons/io";
 import { toast } from 'react-toastify';
 import emailjs from '@emailjs/browser';
 import ReactLoading from 'react-loading';
-
+import { motion } from 'framer-motion';
 export default function Contact() {
     const [isnamefocus, setisnamefocus] = useState(false);
     const [isemailfocus, setisemailfocus] = useState(false);
@@ -32,7 +32,11 @@ export default function Contact() {
         setbtnloading(false);
     }
     return (
-        <div className=' '>
+        <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.8 }}
+            className=' '>
             <h2 className='text-[1.8rem] font-semibold'>Contact</h2>
             <div className='border-[0.15rem] rounded-full border-cyan-500 w-10 my-2'></div>
             <div className='text-[1.5rem] font-semibold mt-4 mb-2'>Contact form</div>
@@ -64,6 +68,6 @@ export default function Contact() {
                     </button>
                 </div>
             </form>
-        </div>
+        </motion.div>
     )
 }

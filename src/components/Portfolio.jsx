@@ -8,10 +8,14 @@ import { FiEye } from "react-icons/fi";
 export default function Portfolio() {
     return (
         <div>
-            <div>
+            <motion.div
+            initial={{ opacity: 0}}
+            animate={{ opacity: 1}}
+            transition={{ duration: 0.8 }}
+            >
                 <h2 className='text-[1.8rem] font-semibold'>Portfolio</h2>
                 <div className='border-[0.15rem] rounded-full border-cyan-500 w-10 my-2'></div>
-            </div>
+            </motion.div>
             <div className='mt-10 gap-10 flex justify-around flex-wrap'>
                 <motion.div
                     initial={{ opacity: 0, scale: 0.5 }}
@@ -79,6 +83,6 @@ export default function Portfolio() {
                     </div>
                 </motion.div>
             </div>
-        </div>
+        </div >
     )
 }
