@@ -38,7 +38,7 @@ export default function Portfolio() {
 
                     <a href='https://github.com/Omkar1201/News_website' target='_blank' rel="noreferrer" className='flex px-2 hover:text-opacity-100 text-white text-opacity-80 duration-[0.4s] items-center gap-2 my-2'>
                         <div className='text-[1.5rem]'><FaGithub /></div>
-                        <div>
+                        <div className='font-semibold'>
                             Newsi
                         </div>
                     </a>
@@ -57,7 +57,7 @@ export default function Portfolio() {
 
                     <a href='https://github.com/Omkar1201/Random_gif' target='_blank' rel="noreferrer" className='flex px-2 hover:text-opacity-100 text-white text-opacity-80 duration-[0.4s] items-center gap-2 my-2'>
                         <div className='text-[1.5rem]'><FaGithub /></div>
-                        <div>
+                        <div className=' font-semibold'>
                             Random Gif generator
                         </div>
                     </a>
