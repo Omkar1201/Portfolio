@@ -11,8 +11,8 @@ export default function Navbar() {
             <Link to='/resume'>
                 <button className={`${location.pathname === '/resume' ? ' text-cyan-500' : 'hover:text-gray-300'} font-semibold `}>Resume</button>
             </Link>
-            <Link to='/portfolio'>
-                <button className={`${location.pathname === '/portfolio' ? ' text-cyan-500' : 'hover:text-gray-300'} font-semibold `}>Portfolio</button>
+            <Link to='/projects'>
+                <button className={`${location.pathname === '/projects' ? ' text-cyan-500' : 'hover:text-gray-300'} font-semibold `}>Projects</button>
             </Link>
             <Link to='/contact'>
                 <button className={`${location.pathname === '/contact' ? ' text-cyan-500' : 'hover:text-gray-300'} font-semibold `}>Contact</button>

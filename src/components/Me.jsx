@@ -26,7 +26,7 @@ export default function Me() {
                     <div className='text-cyan-500'><MdEmail size={24}/></div>
                     <div className='text-[0.9rem] '>
                         <div className=' text-opacity-50 text-white'>Email</div>
-                        <div className='  font-thin text-white'>omkarsalunkhe</div>
+                        <div className='  font-thin text-white'>omkarsalunkhe3597@gmail.com</div>
                     </div>
                 </div>
                 <div className='flex gap-5 items-center'>
@@ -45,19 +45,19 @@ export default function Me() {
                 </div>
             </div>
             <div className="flex space-x-4 flex-wrap gap-2 mt-10 justify-center">
-                <a href='https://leetcode.com/omkarsalunkhe3597/' target='_blank' rel="noreferrer" className=" text-white text-opacity-40 hover:text-cyan-500">
+                <a href='https://leetcode.com/omkarsalunkhe3597/' target='_blank' rel="noreferrer" className=" text-white text-opacity-40 duration-[0.5s] transition-all hover:text-cyan-500">
                     <SiLeetcode size={20} />
                 </a>
-                <a href='https://github.com/Omkar1201' target='_blank' rel="noreferrer" className="text-white text-opacity-40 hover:text-cyan-500   ">
+                <a href='https://github.com/Omkar1201' target='_blank' rel="noreferrer" className="text-white text-opacity-40 duration-[0.5s] transition-all hover:text-cyan-500   ">
                     <FaGithub size={20} />
                 </a>
-                <a href='https://www.linkedin.com/in/omkar-salunkhe-28784b214/' target='_blank' rel="noreferrer" className="text-white text-opacity-40 hover:text-cyan-500">
+                <a href='https://www.linkedin.com/in/omkar-salunkhe-28784b214/' target='_blank' rel="noreferrer" className="text-white text-opacity-40 duration-[0.5s] transition-all hover:text-cyan-500">
                     <FaLinkedin size={20} />
                 </a>
-                <a href="https://x.com/Omkar11239862" target='_blank' rel="noreferrer" className="text-white text-opacity-40 hover:text-cyan-500">
+                <a href="https://x.com/Omkar11239862" target='_blank' rel="noreferrer" className="text-white text-opacity-40 duration-[0.5s] transition-all hover:text-cyan-500">
                     <FaTwitter size={20} />
                 </a>
-                <a href='https://www.instagram.com/omkar_salunkhe12/' target='_blank' rel="noreferrer" className="text-white text-opacity-40 hover:text-cyan-500">
+                <a href='https://www.instagram.com/omkar_salunkhe12/' target='_blank' rel="noreferrer" className="text-white text-opacity-40 duration-[0.5s] transition-all hover:text-cyan-500">
                     <FaInstagram size={20} />
                 </a>
             </div>
