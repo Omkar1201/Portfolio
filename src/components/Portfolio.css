@@ -1,0 +1,10 @@
+@media (max-width: 914px) {
+    .infodiv{
+        width: 18rem;
+    }
+}
+@media (max-width: 720px) {
+    .infodiv{
+        width: 20rem;
+    }
+}

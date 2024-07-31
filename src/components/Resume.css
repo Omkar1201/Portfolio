@@ -1,0 +1,20 @@
+@media (max-width: 513px) {
+    .secondPoint{
+        top: 13.5rem;
+    }
+    .thirdPoint{
+        top:19.5rem
+    }
+    .verticalLine{
+        height: 17rem;
+    }
+}
+@media (max-width: 457px) {
+
+    .thirdPoint{
+        top:21rem
+    }
+    .verticalLine{
+        height: 18rem;
+    }
+}

@@ -4,6 +4,7 @@ import { BiCodeBlock } from "react-icons/bi";
 import { RxDownload } from "react-icons/rx";
 import { motion } from 'framer-motion';
 import express from '../images/express-removebg-preview.png'
+import './Resume.css'
 export default function Resume() {
     return (
         <div className=''>
@@ -38,7 +39,7 @@ export default function Resume() {
 
                         <motion.div 
                         
-                        className='border border-opacity-10 border-white h-[15rem] w-fit'></motion.div>
+                        className='border verticalLine border-opacity-10 border-white h-[15rem] w-fit'></motion.div>
                         <div className='mt-4 flex flex-col gap-6'>
                             <motion.div
                             // initial={{ opacity: 0, scale: 0.5 }}
@@ -91,13 +92,13 @@ export default function Resume() {
                             initial={{ opacity: 0, y: -120 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.5, delay: 0.2 }}
-                            className=' top-[12rem] left-[-0.55rem] absolute bg-white bg-opacity-20 flex justify-center items-center rounded-full'><div className='rounded-full bg-cyan-500 p-[0.3rem] m-[0.3rem]'></div>
+                            className='secondPoint top-[12rem] left-[-0.55rem] absolute bg-white bg-opacity-20 flex justify-center items-center rounded-full'><div className='rounded-full bg-cyan-500 p-[0.3rem] m-[0.3rem]'></div>
                         </motion.div>
                         <motion.div
                             initial={{ opacity: 0, y: -100 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.5, delay: 0.5 }}
-                            className=' top-[18rem] left-[-0.55rem] absolute bg-white bg-opacity-20 flex justify-center items-center rounded-full'><div className='rounded-full bg-cyan-500 p-[0.3rem] m-[0.3rem]'></div>
+                            className='thirdPoint top-[18rem] left-[-0.55rem] absolute bg-white bg-opacity-20 flex justify-center items-center rounded-full'><div className='rounded-full bg-cyan-500 p-[0.3rem] m-[0.3rem]'></div>
                         </motion.div>
                     </div>
                 </div>
@@ -116,7 +117,7 @@ export default function Resume() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6 }}
-                    className='flex justify-around font-thin'>
+                    className='flex justify-around flex-wrap gap-2 font-thin'>
                         <div className='flex flex-col items-center gap-2'>
                             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40" />
                             <div>C++</div>

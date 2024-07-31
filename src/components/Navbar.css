@@ -1,0 +1,8 @@
+@media (max-width: 720px) {
+    .changenavbar{
+        background: #ffffff1a;
+        backdrop-filter: blur(15px);
+        border-radius: 0;
+        width: 100%;
+    }
+}

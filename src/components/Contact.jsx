@@ -113,8 +113,8 @@ export default function Contact() {
                 <div>
                     <textarea placeholder='Add Message' name='message' disabled={isbtnloading} rows={4} onFocus={() => setistextareafocus(true)} onBlur={() => setistextareafocus(false)} className={`bg-transparent duration-[0.5s] placeholder-opacity-40 placeholder-white ${istextareafocus ? 'border-cyan-500 ' : 'border-white border-opacity-20'} resize-none p-3 rounded-xl border w-full outline-none`} required></textarea>
                 </div>
-                <div className='text-cyan-500  flex justify-end relative'>
-                    <button className={`flex ${isbtnloading ? 'text-opacity-35 text-cyan-500 cursor-not-allowed' : 'bg-opacity-20 '}  items-center border border-opacity-10 shadow-md shadow-gray-800  border-white w-fit px-5 py-3 gap-2 rounded-xl `} disabled={isbtnloading}>
+                <div className='text-cyan-500 flex justify-end'>
+                    <button className={`flex relative ${isbtnloading ? 'text-opacity-35 text-cyan-500 cursor-not-allowed' : 'bg-opacity-20 '}  items-center border border-opacity-10 shadow-md shadow-gray-800  border-white w-fit px-5 py-3 gap-2 rounded-xl `} disabled={isbtnloading}>
                         <div className='text-[1.2rem]'>
                             <IoIosSend />
                         </div>
@@ -123,11 +123,10 @@ export default function Contact() {
                         </div>
                         {
                             isbtnloading &&
-                            <div className=' absolute top-[30%] right-[10%]'>
+                            <div className=' absolute top-[30%] right-[42%]'>
                                 <ReactLoading type="spokes" color='#00BCD4' height={20} width={20} />
                             </div>
                         }
-
                     </button>
                 </div>
             </form>
