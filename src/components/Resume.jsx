@@ -17,29 +17,28 @@ export default function Resume() {
                 Resume
                 <div className='border-[0.15rem] rounded-full border-cyan-500 w-10 my-2'></div>
             </motion.h2>
-            <div className='flex gap-4 my-4'>
-                <motion.div
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ duration: 0.6 }}
-                    className=' h-fit text-[1.8rem] my-2 text-cyan-500 border p-2 rounded-xl border-white border-opacity-20 bg-black bg-opacity-50'
-                >
-                    <PiBookOpenTextThin />
-                </motion.div>
-                <div className='flex flex-col gap-5 my-3 relative'>
+            <div className='fle gap-4 my-4'>
+                <div className='flex items-center gap-5'>
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ duration: 0.6 }}
+                        className=' h-fit text-[1.8rem] my-2 text-cyan-500 border p-2 rounded-xl border-white border-opacity-20 bg-black bg-opacity-50'
+                    >
+                        <PiBookOpenTextThin />
+                    </motion.div>
                     <motion.h2
-                        initial={{ opacity: 0}}
-                        animate={{ opacity: 1}}
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
                         transition={{ duration: 0.6 }}
                         className=' text-[1.4rem] font-semibold'
                     >
                         Education
                     </motion.h2>
-                    <div className='flex gap-10'>
-
-                        <motion.div 
-                        
-                        className='border verticalLine border-opacity-10 border-white h-[15rem] w-fit'></motion.div>
+                </div>
+                <div className='flex flex-col gap-5 my-3 relative'>
+                    <div className='flex ml-10 gap-10'>
+                        <motion.div className='border verticalLine border-opacity-10 border-white h-[15.5rem] w-fit'></motion.div>
                         <div className='mt-4 flex flex-col gap-6'>
                             <motion.div
                             // initial={{ opacity: 0, scale: 0.5 }}
@@ -86,38 +85,38 @@ export default function Resume() {
                             // initial={{ opacity: 0, y: -120 }}
                             // animate={{ opacity: 1, y: 0 }}
                             // transition={{ duration: 4, delay: 0.2 }}
-                            className=' top-[4.5rem] left-[-0.55rem] absolute bg-white bg-opacity-20 flex justify-center items-center rounded-full'><div className='rounded-full bg-cyan-500 p-[0.3rem] m-[0.3rem]'></div>
+                            className=' top-[1.35rem] left-[1.95rem] absolute bg-white bg-opacity-20 flex justify-center items-center rounded-full'><div className='rounded-full bg-cyan-500 p-[0.3rem] m-[0.3rem]'></div>
                         </motion.div>
                         <motion.div
                             initial={{ opacity: 0, y: -120 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.5, delay: 0.2 }}
-                            className='secondPoint top-[12rem] left-[-0.55rem] absolute bg-white bg-opacity-20 flex justify-center items-center rounded-full'><div className='rounded-full bg-cyan-500 p-[0.3rem] m-[0.3rem]'></div>
+                            className='secondPoint top-[8.6rem] left-[1.95rem] absolute bg-white bg-opacity-20 flex justify-center items-center rounded-full'><div className='rounded-full bg-cyan-500 p-[0.3rem] m-[0.3rem]'></div>
                         </motion.div>
                         <motion.div
                             initial={{ opacity: 0, y: -100 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.5, delay: 0.5 }}
-                            className='thirdPoint top-[18rem] left-[-0.55rem] absolute bg-white bg-opacity-20 flex justify-center items-center rounded-full'><div className='rounded-full bg-cyan-500 p-[0.3rem] m-[0.3rem]'></div>
+                            className='thirdPoint top-[14.8rem] left-[1.95rem] absolute bg-white bg-opacity-20 flex justify-center items-center rounded-full'><div className='rounded-full bg-cyan-500 p-[0.3rem] m-[0.3rem]'></div>
                         </motion.div>
                     </div>
                 </div>
             </div>
             <div>
-                <motion.div 
-                initial={{ opacity: 0}}
-                animate={{ opacity: 1}}
-                transition={{ duration: 0.6 }}
-                className='flex items-center gap-5' >
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ duration: 0.6 }}
+                    className='flex items-center gap-5' >
                     <div className=' h-fit w-fit text-[1.8rem] my-2 text-cyan-500 border p-2 rounded-xl border-white border-opacity-20 bg-black bg-opacity-50'><BiCodeBlock /></div>
                     <h2 className=' text-[1.4rem] font-semibold'>My Skills</h2>
                 </motion.div>
                 <div>
                     <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6 }}
-                    className='flex justify-around flex-wrap gap-2 font-thin'>
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.6 }}
+                        className='flex justify-around flex-wrap gap-2 font-thin'>
                         <div className='flex flex-col items-center gap-2'>
                             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40" />
                             <div>C++</div>
