@@ -16,8 +16,8 @@ const About = () => {
 				<h2 className='text-[1.8rem] font-semibold'>About me</h2>
 				<div className='border-[0.15rem] rounded-full border-cyan-500 w-10 my-2'></div>
 				<motion.div
-					initial={{ opacity: 0,y:-20}}
-					animate={{ opacity: 1,y:0 }}
+					initial={{ opacity: 0, y: -20 }}
+					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.8 }}
 					className='text-white text-opacity-80 font-thin'>
 					<div className='my-6'>
@@ -95,11 +95,9 @@ const About = () => {
 				>
 					<div className='text-[2rem] my-1 text-cyan-500'><LiaLaptopCodeSolid /></div>
 					<div className=''>
-						<div className='text-[1.2rem] font-semibold'>Web Design</div>
+						<div className='text-[1.2rem] font-semibold'>Problem solving</div>
 						<div className='text-opacity-60 text-white'>
-							Conception, Graphic Design, Layout, Implementation &
-							Maintenance of websites &
-							other web applications
+							Proficient in Data Structures and Algorithms, with strong analytical and problem-solving skills.
 						</div>
 					</div>
 				</motion.div>
