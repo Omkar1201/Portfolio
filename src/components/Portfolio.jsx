@@ -7,6 +7,7 @@ import coursesimg from '../images/courses.png'
 import weatherimg from '../images/weather.png'
 import { motion } from 'framer-motion';
 import { FiEye } from "react-icons/fi";
+import './Portfolio.css'
 export default function Portfolio() {
     return (
         <div>
@@ -23,7 +24,7 @@ export default function Portfolio() {
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.2, delay: 0.2 }}
-                    className='flex flex-col gap-2 w-[22rem]  border border-white border-opacity-30 '>
+                    className='flex infodiv flex-col gap-2 w-[22rem]  border border-white border-opacity-30 '>
                     <a href='https://the-knowledge-nest-1201.vercel.app/' rel='noreferrer' target='_blank' className=' h-[14rem] overflow-hidden relative group cursor-pointer'>
                         <img className='p-1 duration-[0.5s] group-hover:scale-105' src={knowledge} alt='knowledgenest_photo' />
                         <div className='text-[1.5rem] absolute top-[40%] group-hover:opacity-100 z-10 bg-black p-2 right-[44%] rounded-xl opacity-0 text-cyan-500'><FiEye /></div>
@@ -45,7 +46,7 @@ export default function Portfolio() {
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.2, delay: 0.2 }}
-                    className='flex flex-col gap-2 w-[22rem] border border-white border-opacity-30 '>
+                    className='flex infodiv flex-col gap-2 w-[22rem] border border-white border-opacity-30 '>
                     <a href='https://newsi.vercel.app/' rel='noreferrer' target='_blank' className=' h-[14rem] overflow-hidden relative group cursor-pointer'>
                         <img className='p-1 duration-[0.5s] group-hover:scale-105' src={newsi} alt="newsi_photo" />
                         <div className='text-[1.5rem] absolute top-[40%] group-hover:opacity-100 z-10 bg-black p-2 right-[44%] rounded-xl opacity-0 text-cyan-500'><FiEye /></div>
@@ -68,7 +69,7 @@ export default function Portfolio() {
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.2, delay: 0.2 }}
-                    className='flex flex-col gap-2 w-[22rem] border border-white border-opacity-30 '>
+                    className='flex infodiv flex-col gap-2 w-[22rem] border border-white border-opacity-30 '>
                     <a href='https://omkar1201.github.io/myproject.github.io/' rel='noreferrer' target='_blank' className=' h-[14rem] overflow-hidden relative group cursor-pointer'>
                         <img className='p-1 duration-[0.5s] group-hover:scale-105' src={weatherimg} alt="newsi_photo" />
                         <div className='text-[1.5rem] absolute top-[40%] group-hover:opacity-100 z-10 bg-black p-2 right-[44%] rounded-xl opacity-0 text-cyan-500'><FiEye /></div>
@@ -88,7 +89,7 @@ export default function Portfolio() {
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.2, delay: 0.2 }}
-                    className='flex flex-col gap-2 w-[22rem] border border-white border-opacity-30 '>
+                    className='flex infodiv flex-col gap-2 w-[22rem] border border-white border-opacity-30 '>
                     <a href='https://omkar1201.github.io/MiniReact_project/' rel='noreferrer' target='_blank' className=' h-[14rem] overflow-hidden relative group cursor-pointer'>
                         <img className='p-1 duration-[0.5s] group-hover:scale-105' src={coursesimg} alt="courses_photo" />
                         <div className='text-[1.5rem] absolute top-[40%] group-hover:opacity-100 z-10 bg-black p-2 right-[44%] rounded-xl opacity-0 text-cyan-500'><FiEye /></div>
@@ -108,7 +109,7 @@ export default function Portfolio() {
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.2, delay: 0.2 }}
-                    className='flex flex-col gap-2 w-[22rem] border border-white border-opacity-30 '>
+                    className='flex infodiv flex-col gap-2 w-[22rem] border border-white border-opacity-30 '>
                     <a href='https://omkar1201.github.io/Random_gif/' rel='noreferrer' target='_blank' className=' h-[14rem] overflow-hidden relative group cursor-pointer'>
                         <img className='p-1 duration-[0.5s] group-hover:scale-105' src={gifimg} alt="newsi_photo" />
                         <div className='text-[1.5rem] absolute top-[40%] group-hover:opacity-100 z-10 bg-black p-2 right-[44%] rounded-xl opacity-0 text-cyan-500'><FiEye /></div>

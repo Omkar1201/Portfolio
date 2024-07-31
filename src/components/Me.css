@@ -1,7 +1,7 @@
 @media (max-width: 1244px) {
     .upperme {
         width: 100%;
-        padding-top: 1rem;
+        padding: 1rem;
     }
     .contact{
         flex-direction: row;
@@ -22,11 +22,36 @@
     }
     .upperme {
         overflow: hidden;
-        transition: max-height 0.5s ease;
+        transition: max-height 0.5s ease-in-out;
         max-height: 10rem; /* Initial max-height */
     }
 }
-
-
-
-
+@media (max-width: 720px) {
+    .contact {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .profiledirection{
+        gap: 1rem;
+    }
+    .myphoto{
+        width: 6rem;
+    }
+    .line{
+        margin:1rem ;
+    }
+    .socials{
+        margin: 1rem;
+    }
+    .changetextsize{
+        font-size: 1.4rem;
+    }
+    .upperme {
+        max-height: 8rem; /* Initial max-height */
+    }
+}
+@media (max-width: 361px) {
+    .upperme{
+        max-height: 9rem;
+    }
+}

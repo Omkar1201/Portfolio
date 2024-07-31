@@ -1,13 +1,17 @@
 import Me from "./components/Me";
-
 import './App.css'
 import Home from "./components/Home";
+import Navbar from "./components/Navbar";
 function App() {
 	return (
-		<div className="App flex gap-12 bg-black p-16">
-			<Me />
-			<Home/>
-			
+		<div className="bg-black pb-12 min-h-screen flex flex-col">
+			<div className="App relative flex gap-12 p-14">
+				<Me />
+				<Home />
+			</div>
+			<div className="bottomnavbar fixed bottom-[-0.1rem] w-screen hidden">
+				<Navbar />
+			</div>
 		</div>
 	);
 }

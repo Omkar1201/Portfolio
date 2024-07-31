@@ -5,6 +5,7 @@ import { SiLeetcode } from "react-icons/si";
 import { MdEmail } from "react-icons/md";
 import { FaCakeCandles } from "react-icons/fa6";
 import { IoLocationSharp } from "react-icons/io5";
+import { FaAngleDown,FaAngleUp } from "react-icons/fa6";
 import './Me.css';
 
 export default function Me() {
@@ -18,10 +19,10 @@ export default function Me() {
         <div className={`relative upperme py-10 mb-5 px-5 h-fit w-[23rem] border border-opacity-10 flex flex-col items-center bg-opacity-10 bg-white rounded-xl border-white ${isExpanded ? 'expanded' : 'collapsed'}`}>
             <div className='flex w-full profiledirection flex-col items-center'>
                 <div className=''>
-                    <img alt='Profile' src={myphoto} className='w-[8rem] border border-opacity-10 rounded-full' />
+                    <img alt='Profile' src={myphoto} className='myphoto w-[8rem] border border-opacity-10 rounded-full' />
                 </div>
-                <div className='mt-20 changemargin'>
-                    <h2 className='text-white text-2xl text-center font-semibold'>
+                <div className='mt-16 changemargin flex flex-col items-center'>
+                    <h2 className='text-white changetextsize text-2xl text-center font-semibold'>
                         Omkar Salunkhe...
                     </h2>
                     <div className='mt-4 text-[0.8rem] font-thin text-white px-4 py-1 rounded-lg w-fit bg-white bg-opacity-5'>
@@ -29,7 +30,7 @@ export default function Me() {
                     </div>
                 </div>
             </div>
-            <div className='border m-10 w-full border-white border-opacity-5 '></div>
+            <div className='line border m-10 w-full border-white border-opacity-5 '></div>
             <div className='contact text-white flex flex-col gap-10'>
                 <div className='flex items-center gap-5'>
                     <div className='text-cyan-500'><MdEmail size={24} /></div>
@@ -53,7 +54,7 @@ export default function Me() {
                     </div>
                 </div>
             </div>
-            <div className="flex space-x-4 flex-wrap gap-2 mt-10 justify-center">
+            <div className="socials flex space-x-4 flex-wrap gap-2 mt-10 ">
                 <a href='https://leetcode.com/omkarsalunkhe3597/' target='_blank' rel="noreferrer" className="text-white text-opacity-40 duration-[0.5s] transition-all hover:text-cyan-500">
                     <SiLeetcode size={20} />
                 </a>
@@ -71,8 +72,7 @@ export default function Me() {
                 </a>
             </div>
             <button onClick={toggleExpand} className=" absolute profilebtn hidden top-0 right-0 px-4 py-2 text-[0.9rem] bg-black text-cyan-500 rounded-bl-xl rounded-tr-xl">
-                {/* {isExpanded ? 'Show Less' : 'Show More'} */}
-                Show Contact
+                {isExpanded ? <FaAngleUp/> : <FaAngleDown/>}
             </button>
         </div>
     );
