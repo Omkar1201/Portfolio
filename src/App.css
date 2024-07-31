@@ -1,5 +1,11 @@
-::selection{
+::selection {
     /* background-color: #06b6d4; */
     background-color: #22d3ee;
     color: black;
+}
+
+@media (max-width: 1244px) {
+    .App{
+        display: block;
+    }
 }

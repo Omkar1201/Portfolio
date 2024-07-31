@@ -36,7 +36,7 @@ const About = () => {
 				My Works
 			</motion.h2>
 
-			<div className='flex flex-wrap justify-center gap-8'>
+			<div className='flex flex-wrap justify-center gap-6'>
 				<motion.div
 					initial={{ opacity: 0, scale: 0.9 }}
 					animate={{ opacity: 1, scale: 1 }}

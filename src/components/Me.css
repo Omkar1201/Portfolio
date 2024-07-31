@@ -1,0 +1,32 @@
+@media (max-width: 1244px) {
+    .upperme {
+        width: 100%;
+        padding-top: 1rem;
+    }
+    .contact{
+        flex-direction: row;
+    }
+    .changemargin{
+        margin-top: 10px;
+    }
+    .profiledirection{
+        flex-direction: row;
+        justify-items: flex-start;
+        gap: 2rem;
+    }
+    .profilebtn{
+        display: block;
+    }
+    .upperme.expanded {
+        max-height: 50rem; /* Adjust this value based on your content's height */
+    }
+    .upperme {
+        overflow: hidden;
+        transition: max-height 0.5s ease;
+        max-height: 10rem; /* Initial max-height */
+    }
+}
+
+
+
+
