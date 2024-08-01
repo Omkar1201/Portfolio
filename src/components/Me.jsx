@@ -56,19 +56,19 @@ export default function Me() {
             </div>
             <div className="socials flex space-x-4 flex-wrap gap-2 mt-10 ">
                 <a href='https://leetcode.com/omkarsalunkhe3597/' target='_blank' rel="noreferrer" className="text-white text-opacity-40 duration-[0.5s] transition-all hover:text-cyan-500">
-                    <SiLeetcode size={20} />
+                    <SiLeetcode size={24} />
                 </a>
                 <a href='https://github.com/Omkar1201' target='_blank' rel="noreferrer" className="text-white text-opacity-40 duration-[0.5s] transition-all hover:text-cyan-500">
-                    <FaGithub size={20} />
+                    <FaGithub size={24} />
                 </a>
                 <a href='https://www.linkedin.com/in/omkar-salunkhe-28784b214/' target='_blank' rel="noreferrer" className="text-white text-opacity-40 duration-[0.5s] transition-all hover:text-cyan-500">
-                    <FaLinkedin size={20} />
+                    <FaLinkedin size={24} />
                 </a>
                 <a href="https://x.com/Omkar11239862" target='_blank' rel="noreferrer" className="text-white text-opacity-40 duration-[0.5s] transition-all hover:text-cyan-500">
-                    <FaTwitter size={20} />
+                    <FaTwitter size={24} />
                 </a>
                 <a href='https://www.instagram.com/omkar_salunkhe12/' target='_blank' rel="noreferrer" className="text-white text-opacity-40 duration-[0.5s] transition-all hover:text-cyan-500">
-                    <FaInstagram size={20} />
+                    <FaInstagram size={24} />
                 </a>
             </div>
             <button onClick={toggleExpand} className=" absolute profilebtn hidden top-0 right-0 px-4 py-2 text-[0.9rem] bg-black text-cyan-500 rounded-bl-xl rounded-tr-xl">

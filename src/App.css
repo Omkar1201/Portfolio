@@ -23,9 +23,5 @@
         display: block;
     }
 }
-.me {
-    position: -webkit-sticky; /* For Safari */
-    position: sticky;
-    top: 0; /* Or a value that fits your design */
-  }
+
   
