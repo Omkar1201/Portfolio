@@ -71,12 +71,12 @@ export default function Portfolio() {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.2, delay: 0.2 }}
                     className='flex infodiv flex-col gap-2 w-[22rem] border border-white border-opacity-30 '>
-                    <a href='https://omkar1201.github.io/myproject.github.io/' rel='noreferrer' target='_blank' className=' h-[14rem] overflow-hidden relative group cursor-pointer'>
+                    <a href='https://omkar1201.github.io/Weather-detection/' rel='noreferrer' target='_blank' className=' h-[14rem] overflow-hidden relative group cursor-pointer'>
                         <img className='p-1 duration-[0.5s] group-hover:scale-105' src={weatherimg} alt="newsi_photo" />
                         <div className='text-[1.5rem] absolute top-[40%] group-hover:opacity-100 z-10 bg-black p-2 right-[44%] rounded-xl opacity-0 text-cyan-500'><FiEye /></div>
                     </a>
 
-                    <a href='https://github.com/Omkar1201/myproject.github.io' target='_blank' rel="noreferrer" className='flex px-2 hover:text-opacity-100 text-white text-opacity-70 duration-[0.4s] items-center gap-2 my-2'>
+                    <a href='https://github.com/Omkar1201/Weather-detection' target='_blank' rel="noreferrer" className='flex px-2 hover:text-opacity-100 text-white text-opacity-70 duration-[0.4s] items-center gap-2 my-2'>
                         <div className='text-[1.5rem]'><FaGithub /></div>
                         <div className='font-semibold'>
                             Weather App
