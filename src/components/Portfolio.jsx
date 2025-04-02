@@ -2,6 +2,7 @@ import React from 'react'
 import { FaGithub } from 'react-icons/fa';
 import knowledge from '../images/knowledgenest.jpg'
 import newsi from '../images/newsi.jpg'
+import chatApp from '../images/chatApp.png'
 import gifimg from '../images/gif.png'
 import coursesimg from '../images/courses.png'
 import weatherimg from '../images/weather.png'
@@ -83,6 +84,28 @@ export default function Portfolio() {
                     </a>
                     <div className='font-thin text-white text-opacity-80 px-2'>
                         Created a responsive weather app that provides real-time weather updates with an intuitive interface for easy access to current weather conditions.
+                    </div>
+                </motion.div>
+                <motion.div
+                    initial={{ opacity: 0, scale: 0.5 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.2, delay: 0.2 }}
+                    className='flex infodiv flex-col gap-2 w-[22rem] border border-white border-opacity-30 '>
+                    <a href='https://chat-bridge-alpha.vercel.app/' rel='noreferrer' target='_blank' className=' h-[14rem] overflow-hidden relative group cursor-pointer'>
+                        <img className='p-1 duration-[0.5s] group-hover:scale-105' src={chatApp} alt="chatApp_photo" />
+                        <div className='text-[1.5rem] absolute top-[40%] group-hover:opacity-100 z-10 bg-black p-2 right-[44%] rounded-xl opacity-0 text-cyan-500'><FiEye /></div>
+                    </a>
+
+                    <a href='https://github.com/Omkar1201/ChatBridge' target='_blank' rel="noreferrer" className='flex px-2 hover:text-opacity-100 text-white text-opacity-70 duration-[0.4s] items-center gap-2 my-2'>
+                        <div className='text-[1.5rem]'><FaGithub /></div>
+                        <div className='font-semibold'>
+                            ChatBridge
+                        </div>
+                    </a>
+                    <div className='font-thin text-white text-opacity-80 px-2'>
+                        Developed a real-time chat application using Socket.io, incorporating language
+                        translation for better communication. also implemented JWT authentication for
+                        security..
                     </div>
                 </motion.div>
                 <motion.div

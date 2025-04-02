@@ -22,6 +22,9 @@
     .bottomnavbar{
         display: block;
     }
+    .addpadding{
+        padding-bottom: 4rem;
+    }
 }
 
   

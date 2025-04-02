@@ -8,7 +8,7 @@ import Navbar from './Navbar';
 import './Home.css'
 export default function Home() {
     return (
-        <div className='border w-full rounded-3xl bg-white bg-opacity-5 border-opacity-10 border-white text-white'>
+        <div className='border w-full scrolleffect no-scrollbar rounded-3xl bg-white bg-opacity-5 border-opacity-10 border-white text-white'>
             <div className='hidenavbar flex justify-end'>
                 <Navbar />
             </div>

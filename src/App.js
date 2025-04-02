@@ -4,7 +4,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 function App() {
 	return (
-		<div className="bg-black pb-12 min-h-screen flex flex-col">
+		<div className="bg-black addpadding min-h-screen flex flex-col">
 			<div className="App relative flex gap-12 p-14">
 				<Me />
 				<Home />
