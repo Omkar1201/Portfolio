@@ -157,7 +157,7 @@ export default function Resume() {
                 </div>
             </div>
             <div className='flex justify-center mt-10 font-semibold ]'>
-                <a href='https://drive.google.com/file/d/1_Jbyl0nBbcyXskgtssp9wHcuJtKy4mBJ/view?usp=sharing' rel='noreferrer' target='_blank' className='border flex text-cyan-500 duration-[0.2s] border-white border-opacity-20 bg-white bg-opacity-5 active:bg-opacity-0 hover:text-cyan-300 items-center gap-2 px-6 py-2 rounded-lg'>
+                <a href='https://drive.google.com/file/d/1jMDQuGJobYqMKl-RSfYYGeOvLds_Aok7/view' rel='noreferrer' target='_blank' className='border flex text-cyan-500 duration-[0.2s] border-white border-opacity-20 bg-white bg-opacity-5 active:bg-opacity-0 hover:text-cyan-300 items-center gap-2 px-6 py-2 rounded-lg'>
                     <div className='text-[1.2rem]'>
                         <RxDownload />
                     </div>
