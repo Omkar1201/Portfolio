@@ -36,7 +36,7 @@ export default function Me() {
                     <div className='text-cyan-500'><MdEmail size={24} /></div>
                     <div className='text-[0.9rem]'>
                         <div className='text-opacity-50 text-white'>Email</div>
-                        <div className='font-thin text-white'>omkarsalunkhe3597@gmail.com</div>
+                        <div className='font-thin text-white'>omkarsalunkhe1201@gmail.com</div>
                     </div>
                 </div>
                 <div className='flex gap-5 items-center'>

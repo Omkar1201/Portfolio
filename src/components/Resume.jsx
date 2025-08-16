@@ -46,13 +46,13 @@ export default function Resume() {
                             // transition={{ duration: 0.2, delay: 0.2 }}
                             >
                                 <div className='font-semibold'>
-                                    Dr. D.Y. Patil institute of tchnology pimpri pune.
+                                    Dr. D.Y. Patil institute of technology pimpri pune.
                                     <div>Computer Engineering</div>
                                 </div>
                                 <div className='text-cyan-500'>
                                     2021-2025
                                 </div>
-                                <div className='font-thin'>CGPA - 9.09</div>
+                                <div className='font-thin'>CGPA - 9.14</div>
                             </motion.div>
                             <motion.div
                                 initial={{ opacity: 0, y: -120 }}
@@ -122,6 +122,10 @@ export default function Resume() {
                             <div>C++</div>
                         </div>
                         <div className='flex flex-col items-center gap-2'>
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" alt="mysql" width="40" height="40" />
+                            <div>Python</div>
+                        </div>
+                        <div className='flex flex-col items-center gap-2'>
                             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40" />
                             <div>MySQL</div>
                         </div>
@@ -157,7 +161,7 @@ export default function Resume() {
                 </div>
             </div>
             <div className='flex justify-center mt-10 font-semibold ]'>
-                <a href='https://drive.google.com/file/d/1jMDQuGJobYqMKl-RSfYYGeOvLds_Aok7/view' rel='noreferrer' target='_blank' className='border flex text-cyan-500 duration-[0.2s] border-white border-opacity-20 bg-white bg-opacity-5 active:bg-opacity-0 hover:text-cyan-300 items-center gap-2 px-6 py-2 rounded-lg'>
+                <a href='https://drive.google.com/file/d/1uzd4kRC3agkbHKz-yYWBu7GKKmQT6oLJ/view?usp=drivesdk' rel='noreferrer' target='_blank' className='border flex text-cyan-500 duration-[0.2s] border-white border-opacity-20 bg-white bg-opacity-5 active:bg-opacity-0 hover:text-cyan-300 items-center gap-2 px-6 py-2 rounded-lg'>
                     <div className='text-[1.2rem]'>
                         <RxDownload />
                     </div>

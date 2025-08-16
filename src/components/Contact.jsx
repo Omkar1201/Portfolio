@@ -82,7 +82,7 @@ export default function Contact() {
                             Email
                         </div>
                         <div className=' font-thin'>
-                            omkarsalunkhe3597@gmail.com
+                            omkarsalunkhe1201@gmail.com
                         </div>
                     </span>
                 </a>
